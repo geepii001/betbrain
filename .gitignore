@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Internal working notes (personal/legal context); keep local
+CONTEXT.md
+
+# Generated locally; never commit real betting data or trained models
+data/*.db
+data/*.joblib
